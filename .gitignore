@@ -1,0 +1,32 @@
+# OS / editors
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# Environment files (commit .env.example only)
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.sqlite3
+celerybeat-schedule*
+
+# Claude Code local settings
+.claude/settings.local.json
